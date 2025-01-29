@@ -6,7 +6,7 @@
 /*   By: pribolzi <pribolzi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/19 17:04:16 by pribolzi          #+#    #+#             */
-/*   Updated: 2025/01/29 14:41:08 by pribolzi         ###   ########.fr       */
+/*   Updated: 2025/01/29 15:21:32 by pribolzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 # include <unistd.h>
 # include <stdint.h>
 # include "ft_printf.h"
-# include "get_next_line_bonus.h"
+# include "get_next_line.h"
 
 typedef struct s_list
 {
