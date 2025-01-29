@@ -6,7 +6,7 @@
 /*   By: pribolzi <pribolzi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/19 17:04:16 by pribolzi          #+#    #+#             */
-/*   Updated: 2025/01/10 16:34:16 by pribolzi         ###   ########.fr       */
+/*   Updated: 2025/01/29 14:41:08 by pribolzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,5 +68,6 @@ void	ft_lstdelone(t_list *lst, void (*del)(void *));
 void	ft_lstclear(t_list **lst, void (*del)(void *));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void*), void(*del)(void *));
+void	free_tab(char **str);
 
 #endif
