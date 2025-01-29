@@ -6,12 +6,12 @@
 /*   By: pribolzi <pribolzi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 13:59:17 by pribolzi          #+#    #+#             */
-/*   Updated: 2025/01/10 17:10:22 by pribolzi         ###   ########.fr       */
+/*   Updated: 2025/01/29 15:17:58 by pribolzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef GET_NEXT_LINE_BONUS_H
-# define GET_NEXT_LINE_BONUS_H
+#ifndef GET_NEXT_LINE_H
+# define GET_NEXT_LINE_H
 
 # include <fcntl.h>
 # include <stdio.h>
